@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
         <h2>
             Weather App
         </h2>
+        <input type="text" placeholder="Enter City Name ...">
+        <button onclick="displayWeather()">Search</button>
+        <div class="wrapper">
+            <img src="" alt="">
+            <p id="weather-description"></p>
+            <span id="weather-temp"></span>
+            <span id="weather-rain"></span>
+            <span id="weather-humidity"></span>
+            <span id="weather-wind"></span>
+
+        </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
