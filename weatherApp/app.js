@@ -24,7 +24,7 @@ function displayWeather() {
             image.src = element.icon
             temp.innerText = `Temperature : ${element.temperature} °C` 
             rain.innerText = `Rain : ${element.rain} mm`
-            humidity.innerText = `Humdity : ${element.windSpeed} %`
+            humidity.innerText = `Humdity : ${element.humidity} %`
             wind.innerText = `Wind Speed : ${element.windSpeed} km/h`
         }
     }
